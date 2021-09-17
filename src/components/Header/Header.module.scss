@@ -1,0 +1,115 @@
+@import '../../scss/breakpoints.scss';
+@import '../../scss/vars';
+
+.header {
+  // background-color: $grey;
+  display: flex;
+  align-items: center;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media screen and (max-width: $mobile-max) {
+    flex-wrap: wrap;
+    position: relative;
+    padding: 14px 20px 0 20px;
+    nav {
+      width: 360px;
+    }
+    address {
+      position: absolute;
+      right: 30px;
+      top: 32px;
+    }
+  }
+
+  @media screen and (min-width: $tablet) {
+    justify-content: center;
+    padding: 44px 0 0 0;
+    nav {
+      width: 640px;
+      margin-right: 70px;
+    }
+  }
+
+  @media screen and (min-width: $desktop) {
+    nav {
+      margin-right: 336px;
+    }
+  }
+}
+
+.logo {
+  @media screen and (max-width: $mobile-max) {
+    height: 38px;
+    width: 120px;
+    margin: 0 0 16px 16px;
+  }
+  @media screen and (min-width: $tablet) {
+    height: 58px;
+    width: 180px;
+    margin-right: 86px;
+  }
+  @media screen and (min-width: $desktop) {
+    margin-right: 366px;
+  }
+}
+
+.navButton {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: $dark-blue;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: $blue;
+    outline: none;
+  }
+  @media screen and (max-width: $mobile-max) {
+    width: 150px;
+    height: 28px;
+    font-size: 10px;
+  }
+  @media screen and (min-width: $tablet) {
+    width: 310px;
+    height: 58px;
+    font-size: 16px;
+  }
+}
+
+.addressLink {
+  display: flex;
+  align-items: center;
+  font-family: Open Sans;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.4;
+  color: $dark-blue;
+  &:hover,
+  &:focus {
+    color: $blue;
+  }
+  @media screen and (max-width: $mobile-max) {
+    font-size: 14px;
+    .vodafonIcon {
+      margin-right: 8px;
+      width: 20px;
+    }
+  }
+  @media screen and (min-width: $tablet) {
+    font-size: 24px;
+    .vodafonIcon {
+      margin-right: 16px;
+      width: 25px;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import './scss/breakpoints.scss';
+
+.App {
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #fff;
+  @media screen and (max-width: $mobile-max) {
+    width: 360px;
+  }
+  @media screen and (min-width: $tablet) {
+    width: 1300px;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 1920px;
+  }
+}
