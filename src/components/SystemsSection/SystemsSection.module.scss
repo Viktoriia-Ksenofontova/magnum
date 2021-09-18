@@ -163,6 +163,7 @@
     height: 66px;
   }
   @media screen and (min-width: $desktop) {
+    top: -150px;
     width: 70px;
     height: 70px;
   }
@@ -172,7 +173,7 @@
     left: 45px;
   }
   @media screen and (min-width: $tablet) {
-    left: 125px;
+    left: 15px;
   }
   @media screen and (min-width: $desktop) {
     left: 285px;
@@ -183,7 +184,7 @@
     right: 45px;
   }
   @media screen and (min-width: $tablet) {
-    right: 125px;
+    right: 15px;
   }
   @media screen and (min-width: $desktop) {
     right: 285px;

@@ -57,7 +57,7 @@ const systems = [
   },
 ];
 
-function SampleNextArrow(props) {
+function NextArrow(props) {
   const { onClick } = props;
   return (
     <div
@@ -68,7 +68,7 @@ function SampleNextArrow(props) {
   );
 }
 
-function SamplePrevArrow(props) {
+function PrevArrow(props) {
   const { onClick } = props;
   return (
     <div
@@ -86,8 +86,8 @@ const SystemsSection = () => {
     slidesToShow: 6,
     slidesToScroll: 1,
     initialSlide: 0,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
     responsive: [
       {
         breakpoint: 1920,
