@@ -1,0 +1,59 @@
+@import '../../scss/breakpoints.scss';
+@import '../../scss/vars';
+
+.motivation {
+  background-color: $blue;
+  text-align: center;
+  h2 {
+    margin: 0 auto 20px auto;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+  }
+  @media screen and (max-width: $mobile-max) {
+    padding: 40px 20px 45px 20px;
+    h2 {
+      font-size: 28px;
+      line-height: 1.18;
+    }
+  }
+  @media screen and (min-width: $tablet) {
+    padding-top: 120px;
+    padding-bottom: 126px;
+    h2 {
+      width: 1160px;
+      font-size: 40px;
+      line-height: 1.25;
+      margin-bottom: 36px;
+    }
+  }
+}
+.btn {
+  background-color: $dark-blue;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  &:hover,
+  &:focus {
+    color: $dark-blue;
+    background-color: #ffffff;
+    outline: none;
+  }
+  @media screen and (max-width: $mobile-max) {
+    height: 50px;
+    width: 324px;
+    font-size: 14px;
+    line-height: 2.86;
+  }
+  @media screen and (min-width: $tablet) {
+    height: 58px;
+    width: 450px;
+    font-size: 16px;
+    line-height: 2.5;
+  }
+}

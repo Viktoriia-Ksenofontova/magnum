@@ -1,0 +1,191 @@
+@import '../../scss/breakpoints.scss';
+@import '../../scss/vars';
+
+.section {
+  background-color: $dark-blue;
+  font-family: 'Raleway';
+  @media screen and (max-width: $mobile-max) {
+    padding: 40px 20px 138px 20px;
+  }
+  @media screen and (min-width: $tablet) {
+    padding: 120px 5px 0 5px;
+  }
+}
+.sectionTitle {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+  @media screen and (max-width: $mobile-max) {
+    font-size: 28px;
+    line-height: 1.18;
+    font-weight: bold;
+  }
+  @media screen and (min-width: $tablet) {
+    width: 1000px;
+    margin-bottom: 26px;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 1.08;
+  }
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 54px;
+  }
+}
+.systemsList {
+  color: #ffffff;
+  font-family: 'Open Sans';
+}
+.listItem {
+  text-align: center;
+  @media screen and (max-width: $mobile-max) {
+    width: 162px;
+  }
+  @media screen and (min-width: $tablet) {
+    max-width: calc($tablet / 6 - 5px);
+    height: 662px;
+
+    &:hover,
+    &:focus {
+      background-color: $blue;
+      .description,
+      .itemBtn {
+        visibility: visible;
+      }
+    }
+  }
+  @media screen and (min-width: $desktop) {
+    max-width: calc($desktop / 6 - 5px);
+  }
+}
+.systemImage {
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (max-width: $mobile-max) {
+    height: 130px;
+  }
+  @media screen and (min-width: $tablet) {
+    max-width: 210px;
+  }
+}
+.imageWrapper {
+  @media screen and (max-width: $mobile-max) {
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: $tablet) {
+    height: 340px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 24px;
+  }
+}
+.systemName {
+  margin: 0 0 12px 0;
+  text-transform: uppercase;
+  @media screen and (max-width: $mobile-max) {
+    font-size: 17px;
+    line-height: 1.67;
+    font-weight: bold;
+  }
+  @media screen and (min-width: $tablet) {
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 400;
+  }
+}
+.description {
+  margin: 0 auto 20px auto;
+  padding: 0 6px;
+  font-weight: normal;
+  @media screen and (max-width: $mobile-max) {
+    font-size: 12px;
+    line-height: 1.42;
+    height: 102px;
+  }
+  @media screen and (min-width: $tablet) {
+    visibility: hidden;
+    font-size: 16px;
+    line-height: 1.33;
+    margin-bottom: 46px;
+    height: 82px;
+    overflow: hidden;
+  }
+  @media screen and (min-width: $desktop) {
+    font-size: 18px;
+    width: 278px;
+    height: 90px;
+  }
+}
+.itemBtn {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  @media screen and (max-width: $mobile-max) {
+    font-size: 10px;
+    line-height: 2.4;
+    width: 150px;
+  }
+  @media screen and (min-width: $tablet) {
+    visibility: hidden;
+    height: 58px;
+    width: 200px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 246px;
+    font-size: 16px;
+  }
+}
+
+.prevArrowBtn,
+.nextArrowBtn {
+  position: absolute;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @media screen and (max-width: $mobile-max) {
+    bottom: -93px;
+    width: 50px;
+    height: 50px;
+  }
+  @media screen and (min-width: $tablet) {
+    top: -115px;
+    width: 66px;
+    height: 66px;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 70px;
+    height: 70px;
+  }
+}
+.prevArrowBtn {
+  @media screen and (max-width: $mobile-max) {
+    left: 45px;
+  }
+  @media screen and (min-width: $tablet) {
+    left: 125px;
+  }
+  @media screen and (min-width: $desktop) {
+    left: 285px;
+  }
+}
+.nextArrowBtn {
+  @media screen and (max-width: $mobile-max) {
+    right: 45px;
+  }
+  @media screen and (min-width: $tablet) {
+    right: 125px;
+  }
+  @media screen and (min-width: $desktop) {
+    right: 285px;
+  }
+}
