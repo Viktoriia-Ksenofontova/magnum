@@ -90,9 +90,16 @@ const SystemsSection = () => {
     prevArrow: <SamplePrevArrow />,
     responsive: [
       {
-        breakpoint: 1300,
+        breakpoint: 1920,
         settings: {
           slidesToShow: 6,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1300,
+        settings: {
+          slidesToShow: 4,
           slidesToScroll: 1,
         },
       },

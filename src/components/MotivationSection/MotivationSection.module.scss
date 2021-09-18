@@ -21,12 +21,20 @@
   @media screen and (min-width: $tablet) {
     padding-top: 120px;
     padding-bottom: 126px;
+    background-image: url(../../images/3-9.svg), url(../../images/9-12.svg);
+    background-position-x: -200px, calc(100% + 80px);
+    background-position-y: -60px, 58px;
+    background-repeat: no-repeat, no-repeat;
     h2 {
       width: 1160px;
       font-size: 40px;
       line-height: 1.25;
       margin-bottom: 36px;
     }
+  }
+  @media screen and (min-width: $desktop) {
+    background-position-x: -50px, calc(100% - 92px);
+    background-position-y: -60px, 58px;
   }
 }
 .btn {

@@ -44,7 +44,7 @@
     width: 162px;
   }
   @media screen and (min-width: $tablet) {
-    max-width: calc($tablet / 6 - 5px);
+    max-width: calc($tablet / 4 - 5px);
     height: 662px;
 
     &:hover,
@@ -68,7 +68,7 @@
     height: 130px;
   }
   @media screen and (min-width: $tablet) {
-    max-width: 210px;
+    max-width: 235px;
   }
 }
 .imageWrapper {

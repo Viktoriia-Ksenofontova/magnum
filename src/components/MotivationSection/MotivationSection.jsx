@@ -4,8 +4,8 @@ const MotivationSection = () => {
   return (
     <section className={s.motivation}>
       <h2>
-        Сомневатесь в выборе профиля. <br />
-        Получите рекомендацию специалиста
+        Сомневаeтесь в выборе профиля. <br />
+        Получите рекомендацию специалиста.
       </h2>
       <button type="button" className={s.btn}>
         Задать вопрос специалистам
