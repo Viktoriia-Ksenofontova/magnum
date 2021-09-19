@@ -39,8 +39,10 @@ const ConstructionsSection = () => {
               alt={construction.name}
               className={s.imageItem}
             />
-            <h3 className={s.nameItem}>{construction.name}</h3>
-            <p className={s.priceItem}>от {construction.price} грн.</p>
+            <div className={s.constructionDescription}>
+              <h3 className={s.nameItem}>{construction.name}</h3>
+              <p className={s.priceItem}> от {construction.price} грн.</p>
+            </div>
           </li>
         ))}
       </ul>
