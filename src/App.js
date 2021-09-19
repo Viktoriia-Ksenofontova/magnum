@@ -4,6 +4,7 @@ import SystemsSection from './components/SystemsSection';
 import MotivationSection from './components/MotivationSection';
 import ConstructionsSection from './components/ConstructionsSection';
 import AdvantagesSection from './components/AdvantagesSection';
+import Footer from './components/Footer';
 import './App.scss';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <MotivationSection />
       <ConstructionsSection />
       <AdvantagesSection />
+      <Footer />
     </div>
   );
 }

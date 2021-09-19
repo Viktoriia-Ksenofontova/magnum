@@ -1,0 +1,197 @@
+@import '../../scss/breakpoints.scss';
+@import '../../scss/vars';
+
+.footer {
+  background-color: $dark-blue;
+  color: #fff;
+  @media screen and (max-width: $mobile-max) {
+    padding: 22px 20px 24px 20px;
+  }
+  @media screen and (min-width: $tablet) {
+    padding: 82px 20px 58px 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media screen and (min-width: $desktop) {
+    padding-left: 50px;
+    padding-right: 92px;
+  }
+}
+.subtitle {
+  margin: 0 0 14px 0;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+
+  @media screen and (max-width: $mobile-max) {
+    font-size: 28px;
+    line-height: 2.5;
+  }
+  @media screen and (min-width: $tablet) {
+    margin-bottom: 22px;
+    font-size: 55px;
+    line-height: 1.27;
+  }
+}
+.about {
+  p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0;
+  }
+
+  @media screen and (max-width: $mobile-max) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.38);
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 34px;
+    p {
+      font-size: 14px;
+      line-height: 1.36;
+    }
+  }
+  @media screen and (min-width: $tablet) {
+    width: 72%;
+    text-align: left;
+    border-right: 1px solid rgba(255, 255, 255, 0.38);
+    padding-right: 58px;
+    p {
+      font-size: 18px;
+      line-height: 1.33;
+    }
+  }
+  @media screen and (min-width: $desktop) {
+    padding-right: 140px;
+  }
+}
+
+.contacts {
+  @media screen and (max-width: $mobile-max) {
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  @media screen and (min-width: $tablet) {
+    width: 28%;
+    padding-left: 48px;
+    padding-bottom: 76px;
+    text-align: start;
+  }
+  @media screen and (min-width: $desktop) {
+    padding-left: 134px;
+  }
+}
+
+.contactsList,
+.link {
+  list-style: none;
+  text-align: left;
+  font-family: 'Open Sans';
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+
+  @media screen and (max-width: $mobile-max) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  @media screen and (min-width: $tablet) {
+    font-size: 18px;
+    line-height: 1.33;
+    padding: 0;
+  }
+}
+.link {
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    font-weight: bold;
+    @media screen and (max-width: $mobile-max) {
+      font-size: 20px;
+      line-height: 1.2;
+    }
+    @media screen and (min-width: $tablet) {
+      font-size: 24px;
+      line-height: 1;
+    }
+  }
+}
+.contactItem {
+  margin-bottom: 22px;
+}
+.icon {
+  width: 28px;
+  margin-right: 28px;
+  vertical-align: middle;
+}
+.btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    color: $dark-blue;
+    background-color: #ffffff;
+    outline: none;
+  }
+  @media screen and (max-width: $mobile-max) {
+    height: 50px;
+    width: 320px;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  @media screen and (min-width: $tablet) {
+    height: 60px;
+    width: 258px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 64px;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 262px;
+  }
+}
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    margin: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  @media screen and (max-width: $mobile-max) {
+    span {
+      display: none;
+    }
+  }
+  @media screen and (min-width: $tablet) {
+    width: 100%;
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    span {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-left: auto;
+      margin-right: 10px;
+    }
+  }
+  @media screen and (min-width: $desktop) {
+    span {
+      margin-right: 140px;
+    }
+  }
+}
+
+.logo {
+  width: 114px;
+}
