@@ -49,12 +49,6 @@ const AdvantagesSection = () => {
           </li>
         ))}
       </ul>
-      <div className={s.measuringSection}>
-        <p className={s.text}>Заявка на бесплатный вызов замерщика</p>
-        <button type="button" className={s.btn}>
-          Вызвать замерщика
-        </button>
-      </div>
     </section>
   );
 };

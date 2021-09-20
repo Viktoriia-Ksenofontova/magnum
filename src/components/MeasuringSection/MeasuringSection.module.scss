@@ -1,0 +1,68 @@
+@import '../../scss/breakpoints.scss';
+@import '../../scss/vars';
+
+.measuringSection {
+  background-color: $blue;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-style: normal;
+
+  @media screen and (max-width: $mobile-max) {
+    padding: 38px 20px 44px 20px;
+  }
+  @media screen and (min-width: $tablet) {
+    padding-top: 120px;
+    padding-bottom: 128px;
+    background-image: url(../../images/telephone.svg), url(../../images/3-6.svg);
+    background-position-x: 20px, 100%;
+    background-position-y: 96px, 52px;
+    background-repeat: no-repeat, no-repeat;
+  }
+  @media screen and (min-width: $desktop) {
+    background-position-x: 88px, calc(100% - 92px);
+  }
+}
+
+.text {
+  margin: 0 auto 20px auto;
+  color: #ffffff;
+  font-weight: bold;
+  @media screen and (max-width: $mobile-max) {
+    padding: 0 20px;
+    font-size: 28px;
+    line-height: 1.18;
+  }
+  @media screen and (min-width: $tablet) {
+    margin-bottom: 34px;
+    width: 486px;
+    font-size: 40px;
+    line-height: 1.25;
+  }
+}
+.btn {
+  text-align: center;
+  text-transform: uppercase;
+  background: $dark-blue;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    color: $dark-blue;
+    background-color: #ffffff;
+    outline: none;
+  }
+  @media screen and (max-width: $mobile-max) {
+    height: 50px;
+    width: 320px;
+    font-size: 14px;
+    line-height: 2.86;
+  }
+  @media screen and (min-width: $tablet) {
+    height: 58px;
+    width: 450px;
+    font-size: 16px;
+    line-height: 2.5;
+  }
+}

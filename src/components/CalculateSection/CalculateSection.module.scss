@@ -1,0 +1,68 @@
+@import '../../scss/breakpoints.scss';
+@import '../../scss/vars';
+
+.calculateSection {
+  background-color: $blue;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-style: normal;
+
+  @media screen and (max-width: $mobile-max) {
+    padding: 36px 20px 44px 20px;
+  }
+  @media screen and (min-width: $tablet) {
+    padding-top: 116px;
+    padding-bottom: 128px;
+    background-image: url(../../images/windowPayment1.svg),
+      url(../../images/6-9.svg);
+    background-position-x: 5px, calc(100% - 20px);
+    background-position-y: 84px, 50px;
+    background-repeat: no-repeat, no-repeat;
+  }
+  @media screen and (min-width: $desktop) {
+    background-position-x: 92px, calc(100% - 92px);
+  }
+}
+.calculateText {
+  margin: 0 auto 24px auto;
+  color: #ffffff;
+  font-weight: bold;
+  @media screen and (max-width: $mobile-max) {
+    padding: 0 20px;
+    font-size: 28px;
+    line-height: 1.18;
+  }
+  @media screen and (min-width: $tablet) {
+    margin-bottom: 34px;
+    width: 486px;
+    font-size: 40px;
+    line-height: 1.25;
+  }
+}
+.btn {
+  text-align: center;
+  text-transform: uppercase;
+  background: $dark-blue;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    color: $dark-blue;
+    background-color: #ffffff;
+    outline: none;
+  }
+  @media screen and (max-width: $mobile-max) {
+    height: 50px;
+    width: 320px;
+    font-size: 14px;
+    line-height: 2.86;
+  }
+  @media screen and (min-width: $tablet) {
+    height: 58px;
+    width: 450px;
+    font-size: 16px;
+    line-height: 2.5;
+  }
+}

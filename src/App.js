@@ -4,7 +4,9 @@ import Hero from './components/Hero';
 import SystemsSection from './components/SystemsSection';
 import MotivationSection from './components/MotivationSection';
 import ConstructionsSection from './components/ConstructionsSection';
+import CalculateSection from './components/CalculateSection';
 import AdvantagesSection from './components/AdvantagesSection';
+import MeasuringSection from './components/MeasuringSection';
 import Footer from './components/Footer';
 import Modal from './components/Modal';
 import FormWriteUs from './components/FormWriteUs';
@@ -33,7 +35,7 @@ function App() {
     setShowFormCalculate(true);
     document.body.style.overflow = 'hidden';
   };
-  const handleBtnCalLMeasurer = () => {
+  const handleBtnCallMeasurer = () => {
     setShowModal(true);
     setShowFormCallMeasurer(true);
     document.body.style.overflow = 'hidden';
@@ -44,13 +46,15 @@ function App() {
       <div className="App">
         <Header
           onBtnCalculateClick={handleBtnCalculate}
-          onBtnCallMeasurer={handleBtnCalLMeasurer}
+          onBtnCallMeasurer={handleBtnCallMeasurer}
         />
         <Hero />
         <SystemsSection />
         <MotivationSection onBtnClick={handleBtnWriteUsClick} />
         <ConstructionsSection />
+        <CalculateSection onBtnClick={handleBtnCalculate} />
         <AdvantagesSection />
+        <MeasuringSection onBtnClick={handleBtnCallMeasurer} />
         <Footer onBtnClick={handleBtnWriteUsClick} />
       </div>
       {showModal && (

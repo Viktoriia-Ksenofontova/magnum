@@ -6,12 +6,11 @@ import s from './FormWriteUs.module.scss';
 const FormWriteUs = ({ modalClose }) => {
   const key = '6LerbXwcAAAAABEQuKmmam4W8X1_f9UvbmC7HDN7';
   const recaptchaRef = createRef();
-
+  const [token, setToken] = useState('');
   const [name, setName] = useState('');
   const [telephone, setTelephone] = useState('');
   const [message, setMessage] = useState('');
   const [isActiveButton, setActiveButton] = useState(false);
-  const [token, setToken] = useState('');
 
   useEffect(() => {
     if (token) {
@@ -33,7 +32,6 @@ const FormWriteUs = ({ modalClose }) => {
       case 'message':
         setMessage(value);
         break;
-
       default:
         return;
     }

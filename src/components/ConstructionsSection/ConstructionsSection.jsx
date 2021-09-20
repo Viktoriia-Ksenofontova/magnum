@@ -46,14 +46,6 @@ const ConstructionsSection = () => {
           </li>
         ))}
       </ul>
-      <div className={s.calculateSection}>
-        <p className={s.calculateText}>
-          Точный расчет окна по вашим параметрам
-        </p>
-        <button type="button" className={s.btn}>
-          Расчитать стоимость окна
-        </button>
-      </div>
     </section>
   );
 };
