@@ -4,7 +4,7 @@ import { ReactComponent as AddressIcon } from '../../images/addressIcon.svg';
 import { ReactComponent as LogoExtraweb } from '../../images/logoExtraweb.svg';
 import s from './Footer.module.scss';
 
-const Footer = () => {
+const Footer = ({ onBtnClick }) => {
   return (
     <footer className={s.footer}>
       <div className={s.about}>
@@ -43,7 +43,7 @@ const Footer = () => {
             </li>
           </ul>
         </address>
-        <button type="button" className={s.btn}>
+        <button type="button" className={s.btn} onClick={onBtnClick}>
           Написать нам
         </button>
       </div>

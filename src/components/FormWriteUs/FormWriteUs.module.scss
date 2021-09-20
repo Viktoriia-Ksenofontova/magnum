@@ -1,0 +1,102 @@
+@import '../../scss/breakpoints.scss';
+@import '../../scss/vars';
+
+.form {
+  text-align: center;
+}
+.title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  @media screen and (max-width: $mobile-max) {
+    line-height: 1.37px;
+    margin-bottom: 12px;
+    height: 34px;
+  }
+  @media screen and (min-width: $tablet) {
+    line-height: 1.33px;
+    height: 46px;
+    margin-bottom: 14px;
+  }
+}
+.inputForm {
+  @media screen and (max-width: $mobile-max) {
+    height: 34px;
+  }
+  @media screen and (min-width: $tablet) {
+    height: 44px;
+  }
+}
+.textareaForm,
+.inputForm {
+  padding: 8px 18px;
+
+  &::placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #999999;
+  }
+  @media screen and (max-width: $mobile-max) {
+    width: 280px;
+    margin-bottom: 10px;
+  }
+  @media screen and (min-width: $tablet) {
+    width: 350px;
+    margin-bottom: 20px;
+    &::placeholder {
+      font-size: 18px;
+      line-height: 25px;
+    }
+  }
+}
+
+.btn {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(58, 47, 110, 0.3);
+  &:enabled {
+    background-color: $dark-blue;
+  }
+  &:enabled:hover,
+  &:enabled:focus {
+    background-color: $blue;
+    outline: none;
+  }
+  @media screen and (max-width: $mobile-max) {
+    height: 50px;
+    width: 280px;
+    font-size: 14px;
+    line-height: 1.35;
+  }
+  @media screen and (min-width: $tablet) {
+    height: 58px;
+    width: 310px;
+    font-size: 16px;
+    line-height: 1.37;
+  }
+}
+
+.recaptcha {
+  @media screen and (max-width: 360px) {
+    margin-bottom: 12px;
+    transform: scale(0.92);
+    -webkit-transform: scale(0.92);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  }
+  @media screen and (min-width: $tablet) {
+    margin-bottom: 40px;
+    transform: scale(1.152);
+    -webkit-transform: scale(1.152);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  }
+}

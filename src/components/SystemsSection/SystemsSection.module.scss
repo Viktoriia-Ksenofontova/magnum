@@ -151,7 +151,7 @@
   display: block;
   background-repeat: no-repeat;
   background-size: contain;
-
+  cursor: pointer;
   @media screen and (max-width: $mobile-max) {
     bottom: -93px;
     width: 50px;

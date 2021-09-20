@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className={s.hero}>
       <div className={s.heroContent}>
-        <h1 class={s.title}>
+        <h1 className={s.title}>
           Металлопластиковые <br />
           окна в Херсоне
         </h1>
