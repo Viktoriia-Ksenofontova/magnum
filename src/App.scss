@@ -10,8 +10,12 @@
   }
   @media screen and (min-width: $tablet) {
     width: 1300px;
+    background-image: url(./images/background.svg);
+    background-position-x: -300px;
+    background-repeat: no-repeat;
   }
   @media screen and (min-width: $desktop) {
     width: 1920px;
+    background-position-x: 0px;
   }
 }

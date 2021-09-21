@@ -79,7 +79,7 @@ function PrevArrow(props) {
   );
 }
 
-const SystemsSection = () => {
+const SystemsSection = ({ onBtnCalculateClick }) => {
   const settings = {
     infinite: true,
     speed: 500,
@@ -134,7 +134,11 @@ const SystemsSection = () => {
 
               <h3 className={s.systemName}>{system.title}</h3>
               <p className={s.description}>{system.description}</p>
-              <button type="button" className={s.itemBtn}>
+              <button
+                type="button"
+                className={s.itemBtn}
+                onClick={onBtnCalculateClick}
+              >
                 Заявка на просчет
               </button>
             </div>

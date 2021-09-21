@@ -51,7 +51,7 @@ function App() {
           onBtnCallMeasurer={handleBtnCallMeasurer}
         />
         <Hero />
-        <SystemsSection />
+        <SystemsSection onBtnCalculateClick={handleBtnCalculate} />
         <MotivationSection onBtnClick={handleBtnWriteUsClick} />
         <ConstructionsSection />
         <CalculateSection onBtnClick={handleBtnCalculate} />
