@@ -10,6 +10,8 @@ import MeasuringSection from './components/MeasuringSection';
 import Footer from './components/Footer';
 import Modal from './components/Modal';
 import FormWriteUs from './components/FormWriteUs';
+import FormCallMeasurer from './components/FormCallMeasurer';
+import FormCalculate from './components/FormCalculate';
 import './App.scss';
 
 function App() {
@@ -62,9 +64,9 @@ function App() {
           {showFormWriteUs ? (
             <FormWriteUs modalClose={handleCloseModal} />
           ) : showFormCalculate ? (
-            <p>Расчитать стоимость</p>
+            <FormCalculate modalClose={handleCloseModal} />
           ) : showFormCallMeasurer ? (
-            <p>Вызвать замерщика</p>
+            <FormCallMeasurer modalClose={handleCloseModal} />
           ) : null}
         </Modal>
       )}

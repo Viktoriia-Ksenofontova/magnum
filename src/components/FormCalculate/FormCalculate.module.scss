@@ -2,13 +2,16 @@
 @import '../../scss/vars';
 
 .form {
-  text-align: center;
   @media screen and (max-width: $mobile-max) {
     padding: 0 20px 0 20px;
+    text-align: center;
   }
   @media screen and (min-width: $tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 0 60px 0 60px;
-    width: 470px;
+    width: 820px;
   }
 }
 .title {
@@ -16,11 +19,11 @@
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
-  height: 34px;
-  margin-top: 0;
   @media screen and (max-width: $mobile-max) {
     line-height: 1.37px;
+    margin-top: 0;
     margin-bottom: 12px;
+    height: 34px;
   }
   @media screen and (min-width: $tablet) {
     line-height: 1.33px;
@@ -28,17 +31,80 @@
     margin-bottom: 14px;
   }
 }
-.inputForm {
+.size {
+  display: flex;
+  justify-content: space-between;
+  @media screen and (min-width: $tablet) {
+    width: 332px;
+  }
+}
+.inputSize {
   @media screen and (max-width: $mobile-max) {
+    width: 130px;
     height: 34px;
   }
   @media screen and (min-width: $tablet) {
+    width: 158px;
     height: 44px;
   }
 }
-.textareaForm,
+
+.selection {
+  padding: 2px 2px 0 18px;
+  color: #999999;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  outline: 0;
+  &:focus,
+  &:hover {
+    border: 1px solid $blue;
+  }
+  @media screen and (max-width: $mobile-max) {
+    margin-bottom: 10px;
+    width: 280px;
+    height: 34px;
+  }
+  @media screen and (min-width: $tablet) {
+    width: 332px;
+    height: 44px;
+    margin-bottom: 20px;
+  }
+}
+
+.defaultOption {
+  @media screen and (max-width: $mobile-max) {
+    font-size: 12px;
+    line-height: 1.33;
+  }
+  @media screen and (min-width: $tablet) {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
 .inputForm {
-  padding: 8px 18px;
+  @media screen and (max-width: $mobile-max) {
+    width: 280px;
+    height: 34px;
+  }
+  @media screen and (min-width: $tablet) {
+    width: 332px;
+    height: 44px;
+  }
+}
+.textareaForm {
+  @media screen and (max-width: $mobile-max) {
+    width: 280px;
+  }
+  @media screen and (min-width: $tablet) {
+    width: 700px;
+  }
+}
+.textareaForm,
+.inputForm,
+.inputSize {
+  padding: 2px 2px 0 18px;
   outline: 0;
   &:focus,
   &:hover {
@@ -53,11 +119,9 @@
     color: #999999;
   }
   @media screen and (max-width: $mobile-max) {
-    width: 280px;
     margin-bottom: 10px;
   }
   @media screen and (min-width: $tablet) {
-    width: 350px;
     margin-bottom: 20px;
     &::placeholder {
       font-size: 18px;
@@ -65,7 +129,14 @@
     }
   }
 }
-
+.userData,
+.controlData {
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    flex-direction: column;
+    width: 332px;
+  }
+}
 .btn {
   text-align: center;
   text-transform: uppercase;
@@ -90,7 +161,7 @@
   }
   @media screen and (min-width: $tablet) {
     height: 58px;
-    width: 310px;
+    width: 328px;
     font-size: 16px;
     line-height: 1.37;
   }
@@ -105,9 +176,9 @@
     -webkit-transform-origin: 0 0;
   }
   @media screen and (min-width: $tablet) {
-    margin-bottom: 40px;
-    transform: scale(1.152);
-    -webkit-transform: scale(1.152);
+    margin-bottom: 36px;
+    transform: scale(1.07);
+    -webkit-transform: scale(1.07);
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
   }

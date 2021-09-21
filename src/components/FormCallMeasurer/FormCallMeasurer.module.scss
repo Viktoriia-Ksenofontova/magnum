@@ -24,19 +24,11 @@
   }
   @media screen and (min-width: $tablet) {
     line-height: 1.33px;
-    height: 46px;
     margin-bottom: 14px;
+    height: 46px;
   }
 }
-.inputForm {
-  @media screen and (max-width: $mobile-max) {
-    height: 34px;
-  }
-  @media screen and (min-width: $tablet) {
-    height: 44px;
-  }
-}
-.textareaForm,
+
 .inputForm {
   padding: 8px 18px;
   outline: 0;
@@ -55,10 +47,12 @@
   @media screen and (max-width: $mobile-max) {
     width: 280px;
     margin-bottom: 10px;
+    height: 34px;
   }
   @media screen and (min-width: $tablet) {
     width: 350px;
     margin-bottom: 20px;
+    height: 44px;
     &::placeholder {
       font-size: 18px;
       line-height: 25px;
