@@ -3,42 +3,42 @@
     "id": 1,
     "title": "Rehau geneo",
     "description": "Экономвариант, ничего лишнего, отлично выполняет свою функцию, сохраняет тепло и изолирует от шума",
-    "img": "./magnum/images/systems/rehauGeneo.png"
+    "img": "images/systems/rehauGeneo.png"
   },
   {
     "id": 2,
     "title": "WDS 5S",
     "description": "Экономвариант, ничего лишнего, отлично выполняет свою функцию, сохраняет тепло и изолирует от шума",
-    "img": "./magnum/images/systems/wds5.png"
+    "img": "images/systems/wds5.png"
   },
   {
     "id": 3,
     "title": "Wintech 753",
     "description": "Экономвариант, ничего лишнего, отлично выполняет свою функцию, сохраняет тепло и изолирует от шума",
-    "img": "./magnum/images/systems/wintech753.png"
+    "img": "images/systems/wintech753.png"
   },
   {
     "id": 4,
     "title": "Aluplast 2000",
     "description": "Экономвариант, ничего лишнего, отлично выполняет свою функцию, сохраняет тепло и изолирует от шума",
-    "img": "./magnum/images/systems/aluplast2000.png"
+    "img": "images/systems/aluplast2000.png"
   },
   {
     "id": 5,
     "title": "Kömmerling 88",
     "description": "Экономвариант, ничего лишнего, отлично выполняет свою функцию, сохраняет тепло и изолирует от шума",
-    "img": "./magnum/images/systems/kommerling88.png"
+    "img": "images/systems/kommerling88.png"
   },
   {
     "id": 6,
     "title": "Osnova premium",
     "description": "Экономвариант, ничего лишнего, отлично выполняет свою функцию, сохраняет тепло и изолирует от шума",
-    "img": "./magnum/images/systems/osnovaPremium.png"
+    "img": "images/systems/osnovaPremium.png"
   },
   {
     "id": 7,
     "title": "Aluplast 2000",
     "description": "Экономвариант, ничего лишнего, отлично выполняет свою функцию, сохраняет тепло и изолирует от шума",
-    "img": "./magnum/images/systems/aluplast2000.png"
+    "img": "images/systems/aluplast2000.png"
   }
 ]
