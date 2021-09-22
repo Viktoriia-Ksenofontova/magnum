@@ -3,24 +3,24 @@
     "id": 1,
     "name": "Двухстворчатое окно",
     "price": 3570,
-    "img": "images/constructions/window2.png"
+    "img": "./magnum/images/constructions/window2.png"
   },
   {
     "id": 2,
     "name": "Трехстворчатое окно",
     "price": 3570,
-    "img": "images/constructions/window3.png"
+    "img": "./magnum/images/constructions/window3.png"
   },
   {
     "id": 3,
     "name": "Балконный блок",
     "price": 3570,
-    "img": "images/constructions/balconyBlock.png"
+    "img": "./magnum/images/constructions/balconyBlock.png"
   },
   {
     "id": 4,
     "name": "Лоджии",
     "price": 3570,
-    "img": "images/constructions/loggia.png"
+    "img": "./magnum/images/constructions/loggia.png"
   }
 ]

@@ -36,6 +36,7 @@ const SystemsSection = ({ onBtnCalculateClick }) => {
     slidesToShow: 6,
     slidesToScroll: 1,
     initialSlide: 0,
+
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     responsive: [
@@ -47,9 +48,23 @@ const SystemsSection = ({ onBtnCalculateClick }) => {
         },
       },
       {
+        breakpoint: 1919,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        },
+      },
+      {
         breakpoint: 1300,
         settings: {
           slidesToShow: 4,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1299,
+        settings: {
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
