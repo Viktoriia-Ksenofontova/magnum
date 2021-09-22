@@ -3,10 +3,22 @@
 .section {
   text-align: center;
   padding: 40px 0 40px 0;
+  background-repeat: no-repeat;
 
+  @media screen and (max-width: $mobile-max) {
+    background-image: url(../../images/rectangleMobile.svg), url(./back.svg);
+    background-position-x: 140px, 0;
+    background-position-y: 60px, 132px;
+  }
   @media screen and (min-width: $tablet) {
     padding-top: 134px;
     padding-bottom: 84px;
+    background-image: url(../../images/rectangleTablet.svg);
+    background-position-x: 440px;
+    background-position-y: 162px;
+  }
+  @media screen and (min-width: $desktop) {
+    background-position-x: 750px;
   }
 }
 .sectionTitle {
@@ -14,6 +26,7 @@
   font-family: 'Raleway';
   font-style: normal;
   font-weight: bold;
+
   @media screen and (max-width: $mobile-max) {
     font-size: 28px;
     line-height: 1.18;
@@ -68,6 +81,7 @@
 .imageItem {
   @media screen and (max-width: $mobile-max) {
     margin-bottom: 20px;
+    min-width: 112px;
     max-width: 296px;
     max-height: 160px;
   }

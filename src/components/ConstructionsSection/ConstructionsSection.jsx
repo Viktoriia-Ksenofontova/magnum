@@ -1,30 +1,6 @@
 import s from './ConstructionsSection.module.scss';
-const constructions = [
-  {
-    id: 1,
-    name: 'Двухстворчатое окно',
-    price: 3570,
-    img: 'images/constructions/window2.png',
-  },
-  {
-    id: 2,
-    name: 'Трехстворчатое окно',
-    price: 3570,
-    img: 'images/constructions/window3.png',
-  },
-  {
-    id: 3,
-    name: 'Балконный блок',
-    price: 3570,
-    img: 'images/constructions/balconyBlock.png',
-  },
-  {
-    id: 4,
-    name: 'Лоджии',
-    price: 3570,
-    img: 'images/constructions/loggia.png',
-  },
-];
+
+import constructions from '../../data/constructions.json';
 
 const ConstructionsSection = () => {
   return (

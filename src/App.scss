@@ -5,13 +5,16 @@
   margin: 0 auto;
   padding: 0;
   background-color: #fff;
+
   @media screen and (max-width: $mobile-max) {
     width: 360px;
+    background-image: url(./images/mobileGroup.svg);
+    background-repeat: no-repeat;
   }
   @media screen and (min-width: $tablet) {
     width: 1300px;
     background-image: url(./images/background.svg);
-    background-position-x: -300px;
+    background-position-x: -315px;
     background-repeat: no-repeat;
   }
   @media screen and (min-width: $desktop) {

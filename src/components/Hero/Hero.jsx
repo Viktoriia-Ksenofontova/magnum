@@ -3,6 +3,12 @@ import illustration from '../../images/illustration.png';
 import s from './Hero.module.scss';
 
 const Hero = () => {
+  const handleArrowBtnClick = () => {
+    window.scrollTo({
+      top: document.documentElement.clientHeight,
+      behavior: 'smooth',
+    });
+  };
   return (
     <section className={s.hero}>
       <div className={s.heroContent}>
@@ -31,7 +37,7 @@ const Hero = () => {
             </p>
           </li>
         </ul>
-        <Arrow className={s.heroBtn} />
+        <Arrow className={s.heroBtn} onClick={handleArrowBtnClick} />
       </div>
       <img src={illustration} alt="window in focus" />
     </section>

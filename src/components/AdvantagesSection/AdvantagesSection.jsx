@@ -1,31 +1,6 @@
 import s from './AdvantagesSection.module.scss';
 
-const advantages = [
-  {
-    id: 1,
-    name: 'Профессиональный замер',
-    description: 'Диангностика окон, смазка фурнитуры и ее регулировка',
-    img: 'images/advantages/measuring.svg',
-  },
-  {
-    id: 2,
-    name: 'Соотношение цена / качество',
-    description: 'Диангностика окон, смазка фурнитуры и ее регулировка',
-    img: 'images/advantages/scales.svg',
-  },
-  {
-    id: 3,
-    name: 'Безопасная доставка',
-    description: 'Диангностика окон, смазка фурнитуры и ее регулировка',
-    img: 'images/advantages/delivery.svg',
-  },
-  {
-    id: 4,
-    name: 'Правильный монтаж',
-    description: 'Диангностика окон, смазка фурнитуры и ее регулировка',
-    img: 'images/advantages/window.svg',
-  },
-];
+import advantages from '../../data/advantages.json';
 
 const AdvantagesSection = () => {
   return (

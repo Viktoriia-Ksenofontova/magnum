@@ -4,9 +4,23 @@
 .section {
   text-align: center;
   padding: 40px 0 44px 0;
+  background-repeat: no-repeat;
+  @media screen and (max-width: $mobile-max) {
+    background-image: url(../../images/rectangleMobile.svg);
+    background-position-x: 78px;
+    background-position-y: 90px;
+    background-size: 206px;
+  }
   @media screen and (min-width: $tablet) {
     padding-top: 120px;
     padding-bottom: 118px;
+    background-image: url(../../images/rectangleTablet.svg);
+    background-position-x: 640px;
+    background-position-y: 170px;
+    background-size: 485px;
+  }
+  @media screen and (min-width: $desktop) {
+    background-position-x: 950px;
   }
 }
 
@@ -16,7 +30,7 @@
   font-style: normal;
   font-weight: bold;
   @media screen and (max-width: $mobile-max) {
-    width: 280px;
+    width: 240px;
     font-size: 28px;
     line-height: 1.18;
   }

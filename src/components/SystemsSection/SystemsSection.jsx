@@ -5,57 +5,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import s from './SystemsSection.module.scss';
 
-const systems = [
-  {
-    id: 1,
-    title: 'Rehau geneo',
-    description:
-      'Экономвариант, ничего лишнего, отлично выполняет свою функцию, сохраняет тепло и изолирует от шума',
-    img: 'images/systems/rehauGeneo.png',
-  },
-  {
-    id: 2,
-    title: 'WDS 5S',
-    description:
-      'Экономвариант, ничего лишнего, отлично выполняет свою функцию, сохраняет тепло и изолирует от шума',
-    img: 'images/systems/wds5s.png',
-  },
-  {
-    id: 3,
-    title: 'Wintech 753',
-    description:
-      'Экономвариант, ничего лишнего, отлично выполняет свою функцию, сохраняет тепло и изолирует от шума',
-    img: 'images/systems/wintech753.png',
-  },
-  {
-    id: 4,
-    title: 'Aluplast 2000',
-    description:
-      'Экономвариант, ничего лишнего, отлично выполняет свою функцию, сохраняет тепло и изолирует от шума',
-    img: 'images/systems/aluplast2000.png',
-  },
-  {
-    id: 5,
-    title: 'Kömmerling 88',
-    description:
-      'Экономвариант, ничего лишнего, отлично выполняет свою функцию, сохраняет тепло и изолирует от шума',
-    img: 'images/systems/kommerling88.png',
-  },
-  {
-    id: 6,
-    title: 'Osnova premium',
-    description:
-      'Экономвариант, ничего лишнего, отлично выполняет свою функцию, сохраняет тепло и изолирует от шума',
-    img: 'images/systems/osnovaPremium.png',
-  },
-  {
-    id: 7,
-    title: 'Aluplast 2000',
-    description:
-      'Экономвариант, ничего лишнего, отлично выполняет свою функцию, сохраняет тепло и изолирует от шума',
-    img: 'images/systems/aluplast2000.png',
-  },
-];
+import systems from '../../data/systems.json';
 
 function NextArrow(props) {
   const { onClick } = props;
