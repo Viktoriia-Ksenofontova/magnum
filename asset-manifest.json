@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/magnum/static/css/main.a9f7d0b3.chunk.css",
+    "main.js": "/magnum/static/js/main.14e30f62.chunk.js",
+    "main.js.map": "/magnum/static/js/main.14e30f62.chunk.js.map",
+    "runtime-main.js": "/magnum/static/js/runtime-main.9b1dec69.js",
+    "runtime-main.js.map": "/magnum/static/js/runtime-main.9b1dec69.js.map",
+    "static/css/2.9d8c08b8.chunk.css": "/magnum/static/css/2.9d8c08b8.chunk.css",
+    "static/js/2.2e2843da.chunk.js": "/magnum/static/js/2.2e2843da.chunk.js",
+    "static/js/2.2e2843da.chunk.js.map": "/magnum/static/js/2.2e2843da.chunk.js.map",
+    "index.html": "/magnum/index.html",
+    "static/css/2.9d8c08b8.chunk.css.map": "/magnum/static/css/2.9d8c08b8.chunk.css.map",
+    "static/css/main.a9f7d0b3.chunk.css.map": "/magnum/static/css/main.a9f7d0b3.chunk.css.map",
+    "static/js/2.2e2843da.chunk.js.LICENSE.txt": "/magnum/static/js/2.2e2843da.chunk.js.LICENSE.txt",
+    "static/media/MeasuringSection.module.scss": "/magnum/static/media/telephone.d2fd26a6.svg",
+    "static/media/MotivationSection.module.scss": "/magnum/static/media/9-12.6f6c5344.svg",
+    "static/media/CalculateSection.module.scss": "/magnum/static/media/windowPayment1.4a92d45a.svg",
+    "static/media/addressIcon.ae3651e9.svg": "/magnum/static/media/addressIcon.ae3651e9.svg",
+    "static/media/ConstructionsSection.module.scss": "/magnum/static/media/back.163e5d47.svg",
+    "static/media/App.scss": "/magnum/static/media/mobileGroup.341824ff.svg",
+    "static/media/closeBtn.6a7b7dee.svg": "/magnum/static/media/closeBtn.6a7b7dee.svg",
+    "static/media/downArrow.79ba3d91.svg": "/magnum/static/media/downArrow.79ba3d91.svg",
+    "static/media/illustration.d32a08b2.png": "/magnum/static/media/illustration.d32a08b2.png",
+    "static/media/leftArrow.16cf7ca4.svg": "/magnum/static/media/leftArrow.16cf7ca4.svg",
+    "static/media/logo.70d634dc.svg": "/magnum/static/media/logo.70d634dc.svg",
+    "static/media/logoExtraweb.bcb37f6a.svg": "/magnum/static/media/logoExtraweb.bcb37f6a.svg",
+    "static/media/mailIcon.67064d20.svg": "/magnum/static/media/mailIcon.67064d20.svg",
+    "static/media/phoneIcon.ff3183fe.svg": "/magnum/static/media/phoneIcon.ff3183fe.svg",
+    "static/media/AdvantagesSection.module.scss": "/magnum/static/media/rectangleTablet.5770eaf7.svg",
+    "static/media/rightArrow.4a5e1900.svg": "/magnum/static/media/rightArrow.4a5e1900.svg",
+    "static/media/slick-theme.css": "/magnum/static/media/slick.c94f7671.ttf",
+    "static/media/vodafoneIcon.2012ad0e.svg": "/magnum/static/media/vodafoneIcon.2012ad0e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b1dec69.js",
+    "static/css/2.9d8c08b8.chunk.css",
+    "static/js/2.2e2843da.chunk.js",
+    "static/css/main.a9f7d0b3.chunk.css",
+    "static/js/main.14e30f62.chunk.js"
+  ]
+}
