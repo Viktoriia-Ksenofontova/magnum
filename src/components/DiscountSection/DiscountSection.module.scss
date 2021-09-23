@@ -1,0 +1,137 @@
+@import '../../scss/breakpoints.scss';
+@import '../../scss/vars';
+
+.section {
+  position: relative;
+  background-image: url(../../images/blurWindow.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  @media screen and (max-width: $mobile-max) {
+    background-size: cover;
+  }
+  @media screen and (min-width: $desktop) {
+    background-size: contain;
+  }
+  span {
+    color: $dark-blue;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 120px;
+    @media screen and (max-width: $mobile-max) {
+      display: block;
+      font-size: 28px;
+      line-height: 1.18;
+    }
+    @media screen and (min-width: $tablet) {
+      line-height: 1.08;
+      font-size: 65px;
+    }
+  }
+  .btn {
+    z-index: 1;
+    position: absolute;
+    background-color: $blue;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+      color: $dark-blue;
+      background-color: #ffffff;
+      outline: none;
+    }
+    @media screen and (max-width: $mobile-max) {
+      height: 50px;
+      width: 320px;
+      line-height: 2.86;
+      font-size: 14px;
+      bottom: 80px;
+      left: 20px;
+    }
+    @media screen and (min-width: $tablet) {
+      height: 58px;
+      width: 450px;
+      bottom: 180px;
+      font-size: 16px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+.slider {
+  font-family: 'Raleway';
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  @media screen and (max-width: $mobile-max) {
+    padding: 40px 20px 46px 20px;
+  }
+  @media screen and (min-width: $tablet) {
+    padding: 120px 40px 130px 40px;
+  }
+}
+.slide {
+  @media screen and (max-width: $mobile-max) {
+    height: 250px;
+  }
+}
+
+.sectionTitle {
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  color: #ffffff;
+  @media screen and (max-width: $mobile-max) {
+    font-size: 28px;
+    line-height: 1.18;
+  }
+  @media screen and (min-width: $tablet) {
+    width: 700px;
+    margin-bottom: 145px;
+    line-height: 1.08;
+    font-size: 65px;
+  }
+}
+
+.prevArrowBtn,
+.nextArrowBtn {
+  @media screen and (max-width: $mobile-max) {
+    display: none;
+  }
+  @media screen and (min-width: $tablet) {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    top: 160px;
+    width: 66px;
+    height: 66px;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 70px;
+    height: 70px;
+  }
+}
+.prevArrowBtn {
+  @media screen and (min-width: $tablet) {
+    left: 0;
+  }
+  @media screen and (min-width: $desktop) {
+    left: 95px;
+  }
+}
+.nextArrowBtn {
+  @media screen and (min-width: $tablet) {
+    right: 0px;
+  }
+  @media screen and (min-width: $desktop) {
+    right: 90px;
+  }
+}

@@ -12,6 +12,7 @@ import Modal from './components/Modal';
 import FormWriteUs from './components/FormWriteUs';
 import FormCallMeasurer from './components/FormCallMeasurer';
 import FormCalculate from './components/FormCalculate';
+import DiscountSection from './components/DiscountSection';
 import './App.scss';
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
         <CalculateSection onBtnClick={handleBtnCalculate} />
         <AdvantagesSection />
         <MeasuringSection onBtnClick={handleBtnCallMeasurer} />
+        <DiscountSection onBtnClick={handleBtnWriteUsClick} />
         <Footer onBtnClick={handleBtnWriteUsClick} />
       </div>
       {showModal && (

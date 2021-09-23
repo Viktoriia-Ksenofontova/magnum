@@ -4,10 +4,9 @@
   text-align: center;
   padding: 40px 0 40px 0;
   background-repeat: no-repeat;
-
   @media screen and (max-width: $mobile-max) {
     background-image: url(../../images/rectangleMobile.svg), url(./back.svg);
-    background-position-x: 140px, 0;
+    background-position-x: 140px, -326px;
     background-position-y: 60px, 132px;
   }
   @media screen and (min-width: $tablet) {
