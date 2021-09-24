@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/magnum/static/css/main.703f5dad.chunk.css",
-    "main.js": "/magnum/static/js/main.f7eecf87.chunk.js",
-    "main.js.map": "/magnum/static/js/main.f7eecf87.chunk.js.map",
+    "main.css": "/magnum/static/css/main.c79f1daf.chunk.css",
+    "main.js": "/magnum/static/js/main.762867f1.chunk.js",
+    "main.js.map": "/magnum/static/js/main.762867f1.chunk.js.map",
     "runtime-main.js": "/magnum/static/js/runtime-main.9b1dec69.js",
     "runtime-main.js.map": "/magnum/static/js/runtime-main.9b1dec69.js.map",
     "static/css/2.9d8c08b8.chunk.css": "/magnum/static/css/2.9d8c08b8.chunk.css",
-    "static/js/2.aa0c4e06.chunk.js": "/magnum/static/js/2.aa0c4e06.chunk.js",
-    "static/js/2.aa0c4e06.chunk.js.map": "/magnum/static/js/2.aa0c4e06.chunk.js.map",
+    "static/js/2.f297ac73.chunk.js": "/magnum/static/js/2.f297ac73.chunk.js",
+    "static/js/2.f297ac73.chunk.js.map": "/magnum/static/js/2.f297ac73.chunk.js.map",
     "index.html": "/magnum/index.html",
     "static/css/2.9d8c08b8.chunk.css.map": "/magnum/static/css/2.9d8c08b8.chunk.css.map",
-    "static/css/main.703f5dad.chunk.css.map": "/magnum/static/css/main.703f5dad.chunk.css.map",
-    "static/js/2.aa0c4e06.chunk.js.LICENSE.txt": "/magnum/static/js/2.aa0c4e06.chunk.js.LICENSE.txt",
+    "static/css/main.c79f1daf.chunk.css.map": "/magnum/static/css/main.c79f1daf.chunk.css.map",
+    "static/js/2.f297ac73.chunk.js.LICENSE.txt": "/magnum/static/js/2.f297ac73.chunk.js.LICENSE.txt",
     "static/media/MeasuringSection.module.scss": "/magnum/static/media/telephone.d2fd26a6.svg",
     "static/media/MotivationSection.module.scss": "/magnum/static/media/9-12.6f6c5344.svg",
     "static/media/CalculateSection.module.scss": "/magnum/static/media/windowPayment1.4a92d45a.svg",
@@ -27,16 +27,16 @@
     "static/media/logoExtraweb.bcb37f6a.svg": "/magnum/static/media/logoExtraweb.bcb37f6a.svg",
     "static/media/mailIcon.67064d20.svg": "/magnum/static/media/mailIcon.67064d20.svg",
     "static/media/phoneIcon.ff3183fe.svg": "/magnum/static/media/phoneIcon.ff3183fe.svg",
-    "static/media/AdvantagesSection.module.scss": "/magnum/static/media/rectangleTablet.5770eaf7.svg",
     "static/media/rightArrow.4a5e1900.svg": "/magnum/static/media/rightArrow.4a5e1900.svg",
     "static/media/slick-theme.css": "/magnum/static/media/slick.c94f7671.ttf",
+    "static/media/StepsSection.module.scss": "/magnum/static/media/target.40406e9a.svg",
     "static/media/vodafoneIcon.2012ad0e.svg": "/magnum/static/media/vodafoneIcon.2012ad0e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9b1dec69.js",
     "static/css/2.9d8c08b8.chunk.css",
-    "static/js/2.aa0c4e06.chunk.js",
-    "static/css/main.703f5dad.chunk.css",
-    "static/js/main.f7eecf87.chunk.js"
+    "static/js/2.f297ac73.chunk.js",
+    "static/css/main.c79f1daf.chunk.css",
+    "static/js/main.762867f1.chunk.js"
   ]
 }
