@@ -14,6 +14,7 @@ import FormCallMeasurer from './components/FormCallMeasurer';
 import FormCalculate from './components/FormCalculate';
 import DiscountSection from './components/DiscountSection';
 import StepsSection from './components/StepsSection';
+import GallerySection from './components/GallerySection';
 import './App.scss';
 
 function App() {
@@ -62,6 +63,7 @@ function App() {
         <DiscountSection onBtnClick={handleBtnWriteUsClick} />
         <StepsSection />
         <CalculateSection onBtnClick={handleBtnCalculate} />
+        <GallerySection />
         <Footer onBtnClick={handleBtnWriteUsClick} />
       </div>
       {showModal && (

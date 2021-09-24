@@ -9,9 +9,7 @@
   @media screen and (max-width: $mobile-max) {
     background-size: cover;
   }
-  @media screen and (min-width: $desktop) {
-    background-size: contain;
-  }
+
   span {
     color: $dark-blue;
     font-style: normal;
@@ -56,7 +54,7 @@
     @media screen and (min-width: $tablet) {
       height: 58px;
       width: 450px;
-      bottom: 180px;
+      bottom: 170px;
       font-size: 16px;
       left: 50%;
       transform: translateX(-50%);
@@ -92,7 +90,7 @@
   }
   @media screen and (min-width: $tablet) {
     width: 700px;
-    margin-bottom: 145px;
+    margin-bottom: 135px;
     line-height: 1.08;
     font-size: 65px;
   }

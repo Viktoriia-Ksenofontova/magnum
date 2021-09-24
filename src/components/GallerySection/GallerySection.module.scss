@@ -1,0 +1,105 @@
+@import '../../scss/breakpoints.scss';
+@import '../../scss/vars';
+.section {
+  background-color: $dark-blue;
+  font-family: 'Raleway';
+  @media screen and (max-width: $mobile-max) {
+    padding: 38px 0 44px 0;
+  }
+  @media screen and (min-width: $tablet) {
+    padding: 120px 0 104px 5px;
+  }
+  @media screen and (min-width: $desktop) {
+    padding-left: 0;
+  }
+}
+.sectionTitle {
+  margin: 0 auto 24px auto;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+  @media screen and (max-width: $mobile-max) {
+    font-size: 28px;
+    line-height: 1.18;
+    font-weight: 700;
+  }
+  @media screen and (min-width: $tablet) {
+    width: 1000px;
+    margin-bottom: 80px;
+    font-size: 65px;
+    line-height: 1.08;
+  }
+}
+// .slider {
+//   .slick-active {
+//     button {
+//       background-color: white;
+//     }
+//   }
+// }
+.slide {
+  outline: 0;
+  &:focus {
+    img {
+      outline: 1px solid $blue;
+    }
+  }
+  @media screen and (max-width: $mobile-max) {
+    margin: 0 10px 28px 10px;
+    img {
+      width: 320px;
+      height: 208px;
+    }
+  }
+  @media screen and (min-width: $tablet) {
+    margin: 0 0 78px 0;
+    img {
+      width: 640px;
+      height: 404px;
+    }
+  }
+  @media screen and (min-width: $desktop) {
+    margin-left: 10px;
+    margin-right: 10px;
+    img {
+      width: 630px;
+    }
+  }
+}
+.prevArrowBtn,
+.nextArrowBtn {
+  @media screen and (max-width: $mobile-max) {
+    display: none;
+  }
+  @media screen and (min-width: $tablet) {
+    position: absolute;
+    display: block;
+    top: -140px;
+    width: 66px;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+  }
+  @media screen and (min-width: $desktop) {
+    top: -150px;
+    width: 70px;
+    height: 70px;
+  }
+}
+.prevArrowBtn {
+  @media screen and (min-width: $tablet) {
+    left: 15px;
+  }
+  @media screen and (min-width: $desktop) {
+    left: 90px;
+  }
+}
+.nextArrowBtn {
+  @media screen and (min-width: $tablet) {
+    right: 15px;
+  }
+  @media screen and (min-width: $desktop) {
+    right: 90px;
+  }
+}
