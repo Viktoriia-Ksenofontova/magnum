@@ -3,40 +3,54 @@
 .section {
   text-align: center;
   padding: 40px 0 40px 0;
-  background-repeat: no-repeat;
   @media screen and (max-width: $mobile-max) {
-    background-image: url(../../images/rectangleMobile.svg), url(./back.svg);
-    background-position-x: 140px, -326px;
-    background-position-y: 60px, 132px;
+    background-image: url(./back.svg);
+    background-repeat: no-repeat;
+    background-position-x: -326px;
+    background-position-y: 132px;
   }
   @media screen and (min-width: $tablet) {
     padding-top: 134px;
     padding-bottom: 84px;
-    background-image: url(../../images/rectangleTablet.svg);
-    background-position-x: 440px;
-    background-position-y: 162px;
-  }
-  @media screen and (min-width: $desktop) {
-    background-position-x: 750px;
   }
 }
 .sectionTitle {
+  position: relative;
   margin: 0 auto 14px auto;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: bold;
-
+  &::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(16, 160, 222, 0.2);
+  }
   @media screen and (max-width: $mobile-max) {
     font-size: 28px;
     line-height: 1.18;
+    &::before {
+      top: 20px;
+      left: 140px;
+      width: 163px;
+      height: 10px;
+    }
   }
   @media screen and (min-width: $tablet) {
     font-size: 65px;
     line-height: 0.62;
     margin-bottom: 56px;
+    &::before {
+      top: 30px;
+      left: 440px;
+      width: 712px;
+      height: 20px;
+    }
   }
   @media screen and (min-width: $desktop) {
     margin-bottom: 60px;
+    &::before {
+      left: 750px;
+    }
   }
 }
 .constructionList {

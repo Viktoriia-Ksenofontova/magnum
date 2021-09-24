@@ -4,41 +4,45 @@
 .section {
   text-align: center;
   padding: 40px 0 44px 0;
-  background-repeat: no-repeat;
-  @media screen and (max-width: $mobile-max) {
-    background-image: url(../../images/rectangleMobile.svg);
-    background-position-x: 78px;
-    background-position-y: 90px;
-    background-size: 206px;
-  }
   @media screen and (min-width: $tablet) {
     padding-top: 120px;
     padding-bottom: 118px;
-    background-image: url(../../images/rectangleTablet.svg);
-    background-position-x: 640px;
-    background-position-y: 170px;
-    background-size: 485px;
-  }
-  @media screen and (min-width: $desktop) {
-    background-position-x: 950px;
   }
 }
 
 .sectionTitle {
+  position: relative;
   margin: 0 auto 30px auto;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: bold;
+  &::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(16, 160, 222, 0.2);
+  }
   @media screen and (max-width: $mobile-max) {
     width: 240px;
     font-size: 28px;
     line-height: 1.18;
+    &::before {
+      top: 54px;
+      left: 18px;
+      width: 206px;
+      height: 10px;
+    }
   }
   @media screen and (min-width: $tablet) {
     width: 1000px;
     font-size: 65px;
     line-height: 1.08;
     margin-bottom: 84px;
+    &::before {
+      top: 44px;
+      right: 22px;
+      width: 485px;
+      height: 20px;
+    }
   }
 }
 
