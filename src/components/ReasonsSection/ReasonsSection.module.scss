@@ -1,0 +1,130 @@
+@import '../../scss/breakpoints.scss';
+@import '../../scss/vars';
+
+.section {
+  text-align: center;
+  padding: 34px 0 38px 0;
+
+  @media screen and (min-width: $tablet) {
+    padding-top: 110px;
+    padding-bottom: 82px;
+  }
+}
+
+.sectionTitle {
+  position: relative;
+  margin: 0 auto 26px auto;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  &::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(16, 160, 222, 0.2);
+  }
+  @media screen and (max-width: $mobile-max) {
+    font-size: 28px;
+    line-height: 1.18;
+    &::before {
+      top: 20px;
+      right: 25px;
+      width: 162px;
+      height: 10px;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      background-color: rgba(16, 160, 222, 0.2);
+      top: 52px;
+      left: 84px;
+      width: 192px;
+      height: 10px;
+    }
+  }
+  @media screen and (min-width: $tablet) {
+    font-size: 65px;
+    line-height: 1.08;
+    margin-bottom: 40px;
+    &::before {
+      top: 44px;
+      right: 66px;
+      width: 828px;
+      height: 20px;
+    }
+  }
+  @media screen and (min-width: $desktop) {
+    &::before {
+      right: 380px;
+    }
+  }
+}
+.reasonsMain {
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @media screen and (min-width: $desktop) {
+    padding-left: 296px;
+    padding-right: 296px;
+  }
+}
+.reasonsList {
+  list-style: none;
+  padding: 0 20px;
+  margin: 0;
+}
+.reasonItem {
+  display: flex;
+  margin-bottom: 22px;
+  div {
+    text-align: start;
+  }
+  span {
+    align-items: flex-start;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    color: rgba(16, 160, 222, 0.2);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #10a0de;
+
+    @media screen and (max-width: $mobile-max) {
+      font-size: 65px;
+      margin-right: 20px;
+    }
+    @media screen and (min-width: $tablet) {
+      font-size: 110px;
+      margin-right: 25px;
+    }
+  }
+}
+.reasonTitle {
+  font-weight: 700;
+  line-height: 1.28;
+  font-family: 'Open Sans';
+  @media screen and (max-width: $mobile-max) {
+    font-size: 18px;
+    margin: 10px 0 5px 0;
+    width: 200px;
+  }
+  @media screen and (min-width: $tablet) {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+}
+
+.reasonDescription {
+  margin: 0;
+  font-weight: 400;
+  @media screen and (max-width: $mobile-max) {
+    font-size: 12px;
+    line-height: 1.42;
+    width: 200px;
+  }
+  @media screen and (min-width: $tablet) {
+    max-width: 325px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
