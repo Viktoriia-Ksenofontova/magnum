@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/magnum/static/css/main.4d0d5067.chunk.css",
-    "main.js": "/magnum/static/js/main.5856232b.chunk.js",
-    "main.js.map": "/magnum/static/js/main.5856232b.chunk.js.map",
+    "main.js": "/magnum/static/js/main.5a67ca6f.chunk.js",
+    "main.js.map": "/magnum/static/js/main.5a67ca6f.chunk.js.map",
     "runtime-main.js": "/magnum/static/js/runtime-main.9b1dec69.js",
     "runtime-main.js.map": "/magnum/static/js/runtime-main.9b1dec69.js.map",
     "static/css/2.9d8c08b8.chunk.css": "/magnum/static/css/2.9d8c08b8.chunk.css",
@@ -37,6 +37,6 @@
     "static/css/2.9d8c08b8.chunk.css",
     "static/js/2.3412f8f3.chunk.js",
     "static/css/main.4d0d5067.chunk.css",
-    "static/js/main.5856232b.chunk.js"
+    "static/js/main.5a67ca6f.chunk.js"
   ]
 }
