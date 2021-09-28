@@ -18,7 +18,7 @@ const Header = ({ onBtnCalculateClick, onBtnCallMeasurer }) => {
           className={s.navButton}
           onClick={onBtnCalculateClick}
         >
-          расчитать стоимость
+          расcчитать стоимость
         </button>
       </nav>
 

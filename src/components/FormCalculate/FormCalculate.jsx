@@ -111,7 +111,7 @@ const FormCalculate = ({ modalClose }) => {
 
   return (
     <>
-      <h2 className={s.title}>Расчитать стоимость</h2>
+      <h2 className={s.title}>Рассчитать стоимость</h2>
 
       <form onSubmit={onSubmit} className={s.form} autoComplete="off">
         <select

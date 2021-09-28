@@ -7,7 +7,7 @@ const CalculateSection = ({ onBtnClick }) => {
         Точный расчет окна по вашим параметрам
       </h2>
       <button type="button" className={s.btn} onClick={onBtnClick}>
-        Расчитать стоимость окна
+        Рассчитать стоимость окна
       </button>
     </section>
   );
