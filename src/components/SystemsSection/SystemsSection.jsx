@@ -36,7 +36,7 @@ const SystemsSection = ({ onBtnCalculateClick }) => {
     slidesToShow: 6,
     slidesToScroll: 1,
     initialSlide: 0,
-
+    lazyLoad: 'progressive',
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     responsive: [
@@ -93,7 +93,6 @@ const SystemsSection = ({ onBtnCalculateClick }) => {
                   src={system.img}
                   alt={system.title}
                   className={s.systemImage}
-                  loading="lazy"
                 />
               </div>
 
