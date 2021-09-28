@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/magnum/static/css/main.38ad9767.chunk.css",
-    "main.js": "/magnum/static/js/main.5af9de7c.chunk.js",
-    "main.js.map": "/magnum/static/js/main.5af9de7c.chunk.js.map",
+    "main.css": "/magnum/static/css/main.4d0d5067.chunk.css",
+    "main.js": "/magnum/static/js/main.5856232b.chunk.js",
+    "main.js.map": "/magnum/static/js/main.5856232b.chunk.js.map",
     "runtime-main.js": "/magnum/static/js/runtime-main.9b1dec69.js",
     "runtime-main.js.map": "/magnum/static/js/runtime-main.9b1dec69.js.map",
     "static/css/2.9d8c08b8.chunk.css": "/magnum/static/css/2.9d8c08b8.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.3412f8f3.chunk.js.map": "/magnum/static/js/2.3412f8f3.chunk.js.map",
     "index.html": "/magnum/index.html",
     "static/css/2.9d8c08b8.chunk.css.map": "/magnum/static/css/2.9d8c08b8.chunk.css.map",
-    "static/css/main.38ad9767.chunk.css.map": "/magnum/static/css/main.38ad9767.chunk.css.map",
+    "static/css/main.4d0d5067.chunk.css.map": "/magnum/static/css/main.4d0d5067.chunk.css.map",
     "static/js/2.3412f8f3.chunk.js.LICENSE.txt": "/magnum/static/js/2.3412f8f3.chunk.js.LICENSE.txt",
     "static/media/MeasuringSection.module.scss": "/magnum/static/media/telephone.d2fd26a6.svg",
     "static/media/MotivationSection.module.scss": "/magnum/static/media/9-12.6f6c5344.svg",
@@ -36,7 +36,7 @@
     "static/js/runtime-main.9b1dec69.js",
     "static/css/2.9d8c08b8.chunk.css",
     "static/js/2.3412f8f3.chunk.js",
-    "static/css/main.38ad9767.chunk.css",
-    "static/js/main.5af9de7c.chunk.js"
+    "static/css/main.4d0d5067.chunk.css",
+    "static/js/main.5856232b.chunk.js"
   ]
 }
