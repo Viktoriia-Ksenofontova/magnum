@@ -30,13 +30,7 @@
     line-height: 1.08;
   }
 }
-// .slider {
-//   .slick-active {
-//     button {
-//       background-color: white;
-//     }
-//   }
-// }
+
 .slide {
   outline: 0;
   &:focus {
@@ -101,5 +95,24 @@
   }
   @media screen and (min-width: $desktop) {
     right: 90px;
+  }
+}
+.myDots {
+  display: 'flex';
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+  @media screen and (min-width: $desktop) {
+    padding-left: 318px;
+    padding-right: 308px;
+  }
+  li {
+    height: 2px;
+    margin: 0;
+    background-color: white;
+    width: calc(100% / 4);
+  }
+  & :global(.slick-active) div {
+    background-color: $blue;
   }
 }

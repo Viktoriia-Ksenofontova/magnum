@@ -1,6 +1,5 @@
 import LeftArrow from '../../images/leftArrow.svg';
 import RightArrow from '../../images/rightArrow.svg';
-
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -29,11 +28,11 @@ function PrevArrow({ onClick }) {
 
 const GallerySection = () => {
   const settings = {
-    className: 'center',
+    lazyLoad: 'progressive',
+    dots: true,
     centerMode: true,
     swipeToSlide: true,
     infinite: true,
-    dots: true,
     slidesToShow: 2,
     centerPadding: '318px',
     speed: 500,
@@ -78,6 +77,12 @@ const GallerySection = () => {
         },
       },
     ],
+    appendDots: dots => (
+      <div style={{ backgroundColor: 'transparent', bottom: '0px' }}>
+        <ul className={s.myDots}> {dots} </ul>
+      </div>
+    ),
+    customPaging: i => <div style={{ width: '100%', height: '100%' }}></div>,
   };
 
   return (

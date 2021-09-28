@@ -57,7 +57,8 @@
     padding: 36px 0;
     font-family: 'Open Sans';
     font-weight: 700;
-    color: #fff;
+    color: transparent;
+    text-shadow: 0.04em 0 rgba(16, 160, 222, 0.2);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #10a0de;
     background-image: url(../../images/target.svg);

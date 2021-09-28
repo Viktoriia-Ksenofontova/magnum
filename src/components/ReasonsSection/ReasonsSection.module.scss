@@ -85,10 +85,10 @@
     align-items: flex-start;
     font-family: 'Open Sans';
     font-weight: 800;
-    color: rgba(16, 160, 222, 0.2);
+    color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #10a0de;
-
+    text-shadow: 0.04em 0 rgba(16, 160, 222, 0.2);
     @media screen and (max-width: $mobile-max) {
       font-size: 65px;
       margin-right: 20px;
